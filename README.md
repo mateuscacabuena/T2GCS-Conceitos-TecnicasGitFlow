@@ -1,9 +1,15 @@
 # T2GCS-Conceitos-TecnicasGitFlow
 
 
-Grupo:
+#### Grupo:
 - 
 - Felipe Freitas
 - Lucas S. Wolschick
 - Luiza Heller
 - Mateus Caçabuena
+
+
+
+<hr />
+
+#### Fontes:
