@@ -5,5 +5,5 @@ Grupo:
 - 
 - Felipe Freitas
 - Lucas S. Wolschick
--
 - Luiza Heller
+- 
