@@ -26,12 +26,12 @@ Então, ao invés de uma única branch Master, esse fluxo de trabalho utiliza du
 
 Descrevendo um pouco mais sobre cada branch: 
 - Branch Feature: Ramos em que ficam as novas features. Estes ramos têm origem do Branch Develop e quando a feature estiver completa ela retorna ao Develop. As features não interagem diretamente com o Branch Master.
- Para criar um Branch Feature, com a extensão git-flow: *git flow feature start feature_branch.*
- Para finalizar um Branch Feature, com a extensão git-flow: *git flow feature finish feature_branch.*
+ --Para criar um Branch Feature, com a extensão git-flow: *git flow feature start feature_branch.*
+ --Para finalizar um Branch Feature, com a extensão git-flow: *git flow feature finish feature_branch.*
 - Branch Release: É criado quando o Develop já tem features suficientes para um release. A partir de sua criação, nenhuma feature nova pode ser adicionada. Este branch armazena informações como conserto de bugs, documentação e etc. Este branch origina-se do Develop e retorna ao Master (com um número de versão) e ao Develop também. O Branch Release é importante pois permite que uma equipe termine uma release enquanto outra equipe está adicionando novas features à próxima release, além de auxiliar o controle de versões.
- Para criar um Branch Release, com a extensão git-flow: *$ git flow release start 0.1.0
+ --Para criar um Branch Release, com a extensão git-flow: *$ git flow release start 0.1.0
 Switched to a new branch 'release/0.1.0'*
- Para finalizar um Branch Release, com a extensão git-flow: *git flow release finish '0.1.0'* 
+ --Para finalizar um Branch Release, com a extensão git-flow: *git flow release finish '0.1.0'* 
 - Branch Hotflix: 
 <hr />
 
