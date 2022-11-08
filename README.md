@@ -24,15 +24,12 @@ Além disso, três branches de suporte que são temporários e duram até realiz
 
 Então, ao invés de uma única branch Master, esse fluxo de trabalho utiliza duas branches principais para registrar o histórico do projeto. A branch Master armazena o histórico do lançamento oficial, e a branch Develop serve como uma ramificação de integração para recursos.
 
-Descrevendo um pouco mais sobre cada branch:
-
-     Branch Feature: Ramos em que ficam as novas features. Estes ramos têm origem do Branch Develop e quando a feature estiver completa ela retorna ao Develop. As features não interagem diretamente com o Branch Master.
+Descrevendo um pouco mais sobre cada branch: 
+- Branch Feature: Ramos em que ficam as novas features. Estes ramos têm origem do Branch Develop e quando a feature estiver completa ela retorna ao Develop. As features não interagem diretamente com o Branch Master.
 Para criar um Branch Feature, com a extensão git-flow: git flow feature start feature_branch
 Para finalizar um Branch Feature, com a extensão git-flow: git flow feature finish feature_branch
-
-     Branch Release: 
-     
-     Branch Hotflix: 
+- Branch Release: 
+- Branch Hotflix: 
 <hr />
 
 ### Fontes:
