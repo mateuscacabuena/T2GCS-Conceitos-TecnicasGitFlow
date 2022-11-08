@@ -26,8 +26,8 @@ Então, ao invés de uma única branch Master, esse fluxo de trabalho utiliza du
 
 Descrevendo um pouco mais sobre cada branch: 
 - Branch Feature: Ramos em que ficam as novas features. Estes ramos têm origem do Branch Develop e quando a feature estiver completa ela retorna ao Develop. As features não interagem diretamente com o Branch Master.
-Para criar um Branch Feature, com a extensão git-flow: git flow feature start feature_branch
-Para finalizar um Branch Feature, com a extensão git-flow: git flow feature finish feature_branch
+*Para criar um Branch Feature, com a extensão git-flow: git flow feature start feature_branch
+*Para finalizar um Branch Feature, com a extensão git-flow: git flow feature finish feature_branch
 - Branch Release: 
 - Branch Hotflix: 
 <hr />
