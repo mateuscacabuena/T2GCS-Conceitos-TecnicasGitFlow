@@ -8,6 +8,8 @@
 - Luiza Heller
 - Mateus Caçabuena
 
+<hr />
+
 ### Introdução:
 O Git Flow é uma estratégia criada para melhorar as organizações das Branchs dentro do repositório e, desta forma, dar mais fluidez ao processo de novas Features e Releases. O termo ainda é bem recente. Ele foi divulgado através de uma publicação do engenheiro de software holandês Vincent Driessen, em 2010.
 
