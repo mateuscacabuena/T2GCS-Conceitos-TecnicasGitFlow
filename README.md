@@ -12,6 +12,9 @@
 
 ### Introdução:
 O Git Flow é uma estratégia criada para melhorar as organizações das Branchs dentro do repositório e, desta forma, dar mais fluidez ao processo de novas Features e Releases. O termo ainda é bem recente. Ele foi divulgado através de uma publicação do engenheiro de software holandês Vincent Driessen, em 2010.
+### Funcionamento:
+O Git Flow trabalha com duas branches principais, a Develop e a Master, que duram para sempre; e três branches de suporte, Feature, Release e Hotfix, que são temporários e duram até realizar o merge com as branches principais. Então, ao invés de uma única branch Master, esse fluxo de trabalho utiliza duas branches principais para registrar o histórico do projeto. A branch Master armazena o histórico do lançamento oficial, e a branch Develop serve como uma ramificação de integração para recursos.
+
 
 <hr />
 
