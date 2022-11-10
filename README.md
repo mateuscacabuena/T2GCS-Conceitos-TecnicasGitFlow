@@ -32,7 +32,7 @@ Descrevendo um pouco mais sobre cada branch:
  -> Para criar um Branch Release, com a extensão git-flow: *$ git flow release start 0.1.0 <br />
 Switched to a new branch 'release/0.1.0'* <br />
  -> Para finalizar um Branch Release, com a extensão git-flow: *git flow release finish '0.1.0'*  <br />
-- Branch Hotflix: 
+- Branch Hotflix: Os ramos Hotflix são usados para corrigir as releases. Dessa forma, são similares a aos release e feature branches. A diferença é que os ramos hotflix são derivados do Master e não do Develop. Quando a correção da feature estiver completa, deve ser adicionada ao Master (atribuindo uma tag de versão ao Master) e ao Develop.
 <hr />
 
 ### Fontes:
