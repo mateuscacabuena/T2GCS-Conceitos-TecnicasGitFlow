@@ -44,21 +44,21 @@ Switched to a new branch 'release/0.1.0'* <br />
 Das palavras do próprio criador do Git Flow, Vincent Driessen admite que a estrutura criada em 2010 pode não ser a melhor em um determinado projeto para um 
 determinado grupo de desenvolvimentos.
 
--GitHub Flow:
+- GitHub Flow:
 Criado para equipes pequenas,programas web e projetos que não precisam de muito suporte, sendo ele uma versão mais simples do que o git flow.
- Vantagens: permite o bom uso da entrega contínua e integração contínua.
- Desvantagem:A falta de branches de desenvolvimento dedicado tornam todo o trabalho bem mais suscetível a bugs em produção.
+-> Vantagens: permite o bom uso da entrega contínua e integração contínua.
+ ->Desvantagem:A falta de branches de desenvolvimento dedicado tornam todo o trabalho bem mais suscetível a bugs em produção.
  
--GitLab Flow:
+- GitLab Flow:
 Mais simples que o Git flow e melhor organizado e estruturado ao comparar com ao github flow.
- Vantagens: Introduçãoem  à algumas branches de ambiente, como produção, pré-produção e até mesmo release. Também possui entrega contínua e integração contínua.
- Desvantagens: Mesma falha do github flow, suscetível a bugs.
+-> Vantagens: Introduçãoem  à algumas branches de ambiente, como produção, pré-produção e até mesmo release. Também possui entrega contínua e integração contínua.
+ ->Desvantagens: Mesma falha do github flow, suscetível a bugs.
 
--One Flow:
+- One Flow:
 Foi criado como uma proposta alternativa ao Git flow, o criador Adam Ruska, considera o Git flow prejudicial.
 A proposta alternativa é que a nova versão seja baseada na anterior, sendo a principal difereça do One Flow e o Git Flow é que esse modelo não contém a branch develop.
- Vantagens: Fácil leitura de histórico, flexivel ao time e ideal para projetos de uma versão de produção.
- Desvantagens: Não é bom para entrega contínua e integração contínua e caso precise de mais de uma versão não é recomendado.
+-> Vantagens: Fácil leitura de histórico, flexivel ao time e ideal para projetos de uma versão de produção.
+-> Desvantagens: Não é bom para entrega contínua e integração contínua e caso precise de mais de uma versão não é recomendado.
 
 
 <hr />
