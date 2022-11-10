@@ -41,12 +41,24 @@ Switched to a new branch 'release/0.1.0'* <br />
 
 
 ### Outros Flxos do Git:
+Das palavras do próprio criador do Git Flow, Vincent Driessen admite que a estrutura criada em 2010 pode não ser a melhor em um determinado projeto para um 
+determinado grupo de desenvolvimentos.
 
 -GitHub Flow:
-
+Criado para equipes pequenas,programas web e projetos que não precisam de muito suporte, sendo ele uma versão mais simples do que o git flow.
+ Vantagens: permite o bom uso da entrega contínua e integração contínua.
+ Desvantagem:A falta de branches de desenvolvimento dedicado tornam todo o trabalho bem mais suscetível a bugs em produção.
+ 
 -GitLab Flow:
+Mais simples que o Git flow e melhor organizado e estruturado ao comparar com ao github flow.
+ Vantagens: Introduçãoem  à algumas branches de ambiente, como produção, pré-produção e até mesmo release. Também possui entrega contínua e integração contínua.
+ Desvantagens: Mesma falha do github flow, suscetível a bugs.
 
 -One Flow:
+Foi criado como uma proposta alternativa ao Git flow, o criador Adam Ruska, considera o Git flow prejudicial.
+A proposta alternativa é que a nova versão seja baseada na anterior, sendo a principal difereça do One Flow e o Git Flow é que esse modelo não contém a branch develop.
+ Vantagens: Fácil leitura de histórico, flexivel ao time e ideal para projetos de uma versão de produção.
+ Desvantagens: Não é bom para entrega contínua e integração contínua e caso precise de mais de uma versão não é recomendado.
 
 
 <hr />
@@ -55,3 +67,4 @@ Switched to a new branch 'release/0.1.0'* <br />
      https://www.alura.com.br/artigos/git-flow-o-que-e-como-quando-utilizar?gclid=Cj0KCQiAmaibBhCAARIsAKUlaKTK_9k7voUMKR9Kp5iDDT-EqK2C8GfTT8mR8gjOvsZhWlkhM86xFZsaAkOnEALw_wcB
      https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Gitflow-release-branch-process-start-finish#:~:text=The%20Gitflow%20release%20branch%20has,back%20to%20development%20and%20hotfixes.
      https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+     https://blog.betrybe.com/git/git-flow/
