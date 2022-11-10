@@ -37,6 +37,10 @@ Switched to a new branch 'release/0.1.0'* <br />
  -> Para finalizar um Branch Hotflix, com a extensão git-flow: *$ git flow hotfix finish hotfix_branch*
 <hr />
 
+### Técnicas:
+
+### Exemplos:
+
 ### Fontes:
      https://www.hostgator.com.br/blog/git-flows-versoes-de-um-codigo/
      https://www.alura.com.br/artigos/git-flow-o-que-e-como-quando-utilizar?gclid=Cj0KCQiAmaibBhCAARIsAKUlaKTK_9k7voUMKR9Kp5iDDT-EqK2C8GfTT8mR8gjOvsZhWlkhM86xFZsaAkOnEALw_wcB
