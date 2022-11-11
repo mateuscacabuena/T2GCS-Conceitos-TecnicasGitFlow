@@ -2,7 +2,6 @@
 ## Sumário:
   - [Introdução](#introdução)
   - [Funcionamento](#funcionamento)
-  - [Técnicas](#técnicas)
   - [Exemplos](#exemplos)
   - [Outros Fluxos do Git](#outros-fluxos-do-git)
   - [Autores](#autores)
@@ -39,9 +38,8 @@ Descrevendo um pouco mais sobre cada branch temporária:
   - Para criar um Branch Hotfix, com a extensão git-flow: <code>*git flow hotfix start hotfix_branch*</code>
   - Para finalizar um Branch Hotfix, com a extensão git-flow: <code>*git flow hotfix finish hotfix_branch*</code>
 
-## Técnicas:
-
 ## Exemplos:
+Que exemplo melhor para demonstrar um bom uso do Git Flow, do que o do próprio criador deste? No [repositório original do gitflow (primeiro link das fontes)](#fontes) é possível encontrar as branches principais (master e develop), além de uma feature que está sendo implementada ("feature/implement-hooks").
 
 ## Outros Fluxos do Git:
 Das palavras do próprio criador do Git Flow, Vincent Driessen admite que a estrutura criada em 2010 pode não ser a melhor em um determinado projeto para um 
@@ -75,8 +73,12 @@ Foi criado como uma proposta alternativa ao Git Flow; o criador, Adam Ruska, con
 <hr>
 
 ### Fontes:
+- [gitflow | nvie | 25/09/2012](https://github.com/nvie/gitflow)
+- [A successful Git branching model | Vincent Driessen | 05/01/2010](https://nvie.com/posts/a-successful-git-branching-model/)
 - [Git Flow: a estratégia essencial para organizar as versões de um código | HostGator | 30/07/2020](https://www.hostgator.com.br/blog/git-flows-versoes-de-um-codigo/)
 - [Git Flow: entenda o que é | como e quando utilizar | Murillo Godoi Pedroso | 07/06/2022](https://www.alura.com.br/artigos/git-flow-o-que-e-como-quando-utilizar?gclid=Cj0KCQiAmaibBhCAARIsAKUlaKTK_9k7voUMKR9Kp5iDDT-EqK2C8GfTT8mR8gjOvsZhWlkhM86xFZsaAkOnEALw_wcB)
 - [Gitflow release branch process from start to finish example | Cameron McKenzie | 24/02/2021](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Gitflow-release-branch-process-start-finish#:~:text=The%20Gitflow%20release%20branch%20has,back%20to%20development%20and%20hotfixes.)
 - [Gitflow Workflow | Atlassian Bitbucket](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - [Git Flow: o que é e como gerenciar branches? Exemplos! | Vinicius Martins | 10/09/2021](https://blog.betrybe.com/git/git-flow/)
+- [Trabalhando com Git Flow | theandersonn | 22/08/2017](https://github.com/theandersonn/comandos-git/blob/master/comandos/trabalhando-git-flow.md)
+- [GitflowPassoAPasso | paulo-raoni | 18/10/2022](https://gist.github.com/paulo-raoni/1a8f52138f67fd40379f454ee61aa4ce)
